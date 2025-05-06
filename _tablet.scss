@@ -1,3 +1,16 @@
+@media (max-width: 833px) {
+
+    .footer__subscribe {
+        cursor: pointer !important;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    .center {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+
 @media (max-width: 1024px) {
 
     .filtering-form {
@@ -27,7 +40,7 @@
         gap: 30px;
         }
     .product__unit {
-        width: 378px;
+        width: 100%;
     }
     .logo-footer {
         display: none;}
@@ -43,15 +56,3 @@
     .special-offers {gap: 29px;}
 }
 
-@media (max-width: 833px) {
-
-    .footer__subscribe {
-        cursor: pointer !important;
-        transition: background-color 0.3s ease, color 0.3s ease;
-    }
-
-    .center {
-        padding-left: 24px;
-        padding-right: 24px;
-    }
-}

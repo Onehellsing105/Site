@@ -1,0 +1,171 @@
+.top {
+    &_cart {
+        height: 400px;
+        background-image: url(Images/topcart.jpeg);}}
+    
+    .top__title {
+        &_cart {
+            margin-top: 127px;}
+        }
+    
+    .special-offers {
+        &_cart {
+            padding-bottom: 32px;}}
+    
+    .catalog-link {
+        &_cart {
+            padding-bottom: 64px;}}
+    
+    .cart {display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        gap: 32px;
+        &__content {
+            grid-column: span 8;}
+        &__name-box {
+            display: flex;
+            justify-content: space-between;
+            padding-top: 64px;
+            padding-bottom: 14px;
+           }}
+    
+    .cart-item {
+        border-top: 0.5px solid rgb(202, 205, 216);
+        padding-top: 25px;
+        padding-bottom: 32px;
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+    
+        &__img {
+            height: 173px;
+            width: 173px;}
+    
+        &_height {padding-top: 32px;}
+    
+        &__text {color: rgb(136, 136, 136);
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 17px;
+            letter-spacing: 0;
+            text-align: left;}
+    
+        &__info {
+            width: 276px;display: flex;
+            flex-direction: column;
+            gap: 14px;}
+    
+        &__left {
+            display: flex;
+            gap: 32px;}
+    
+        &__title {color: rgb(0, 0, 0);
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 29px;
+            letter-spacing: 0;
+            text-align: left;}
+    
+        &__text {
+            color: rgb(136, 136, 136);
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 17px;
+            letter-spacing: 0;
+            text-align: left;}
+    
+        &__price {
+            color: rgb(5, 5, 5);
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 20px;
+            letter-spacing: 0;}
+        }
+    
+    .cart__form {
+        grid-column: span 4;
+        margin-top: 64px;
+        border-radius: 20px;
+        background: rgb(247, 246, 246);
+        height: 556px;}
+    
+    .form__title {
+        margin-bottom: 0px;
+        padding-top: 42px;
+        color: rgb(0, 0, 0);
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 29px;
+        letter-spacing: 0px;
+        text-align: center;} 
+    
+    .form-data {
+        display: flex;
+        flex-direction: column;
+    
+        &__name, &__number, &__address {
+            padding-top: 43px;
+            color: rgb(0, 0, 0);
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 17px;
+            letter-spacing: 0px;
+            outline:none;
+            font-family: inherit;} 
+    
+        &__name {padding-top: 36px;}
+     
+        &__total {color: rgb(0, 0, 0);
+            padding-top: 64px;
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 29px;
+            letter-spacing: 0px;
+            text-align: center;
+            font-weight: normal;}
+    
+        &__button {
+            font-family: Montserrat;
+            color: rgb(0, 0, 0);
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 20px;
+            letter-spacing: 0px;
+            text-align: center;
+            box-sizing: border-box;
+            border: 1px solid rgb(4, 4, 4);
+            border-radius: 20px;
+            height: 41px;
+            width: 290px;
+            cursor: pointer;
+            transition: background-color 0.5s ease, color 0.5s ease;}
+        &__money {font-weight: 500;}}
+    
+    .form-data__button:hover{
+        background-color: black;
+        color: white;}
+    
+    .cart-total {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 18px;}
+    
+    .cart-interactive {
+        align-items: center;
+        display: flex;
+        gap: 30px;
+    
+        &__favourites,&__delete { 
+            color: rgb(0, 0, 0);
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 210%;
+            letter-spacing: 0px;
+            text-decoration-line: underline;}}
+    
+    .cart-interactive__delete:hover, .cart-interactive__favourites:hover {
+        color: #888888;
+        text-decoration: none;
+    }
+    
+    
