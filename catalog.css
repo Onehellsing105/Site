@@ -1,0 +1,133 @@
+.top_catalog {
+  background-image: url(Images/glav-catalog.jpeg);
+  height: 400px;
+}
+
+.catalog-link {
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  text-decoration-line: underline;
+  margin-top: 40px;
+  margin-bottom: 64px;
+}
+
+.catalog-link:hover {
+  text-decoration: none;
+  color: #888888;
+}
+
+.catalog-more {
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  text-decoration-line: underline;
+  margin-top: 40px;
+  margin-bottom: 64px;
+}
+
+.catalog-box {
+  display: flex;
+  flex-wrap: wrap;
+  -moz-column-gap: 32px;
+       column-gap: 32px;
+  row-gap: 56px;
+  margin-bottom: 32px;
+}
+
+.catalog-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  margin-top: 64px;
+  flex-wrap: wrap;
+}
+
+.position {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.position__unit {
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  text-decoration: none;
+}
+
+.interaction {
+  display: flex;
+  gap: 10px;
+}
+
+.filters, .filters-2 {
+  font-family: Montserrat;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  height: 40px;
+  box-sizing: border-box;
+  border: 1px solid rgb(196, 196, 196);
+  border-radius: 20px;
+  padding-left: 23px;
+  padding-right: 23px;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0;
+  width: 182px;
+  background-image: url(Images/arrow.svg);
+  background-repeat: no-repeat;
+  background-position: right 20px center;
+}
+
+.filters-2 {
+  width: 227px;
+  font-weight: 400;
+  transition: background-color 0.5s ease, color 0.5s ease;
+  cursor: pointer;
+}
+
+.filters-2:hover {
+  background-color: black;
+  color: white;
+}
+
+.filters-2 option {
+  background-color: white;
+  color: black;
+}
+
+option {
+  background-color: transparent;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  width: 182px;
+}
+
+.filter-button-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+
+.catalog-more:hover {
+  text-decoration: none;
+  color: #888888;
+}/*# sourceMappingURL=catalog.css.map */
